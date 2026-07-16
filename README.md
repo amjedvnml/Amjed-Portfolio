@@ -1,2 +1,2 @@
 # Amjed-Portfolio
-My personal portfolio — a place to showcase my projects, skills, and passion for building web experiences.
+A modern, high-performance frontend portfolio built with React, Tailwind CSS, and GSAP — focused on clean design, smooth interactions, and scalability.
