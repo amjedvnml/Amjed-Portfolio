@@ -7,6 +7,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import vamosImage from '../assets/vamos.png';
 import neonImage from '../assets/neon.png';
 import portfolioImage from '../assets/portfolio.png';
+import atelierImage from '../assets/atelier47.png';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -22,12 +23,12 @@ const projects = [
   },
   {
     id: 2,
-    title: 'Portfolio Website',
-    description: 'Clean and minimal portfolio showcasing creative work with smooth animations and modern design.',
-    image: portfolioImage,
-    tech: ['React', 'GSAP', 'Tailwind CSS'],
-    liveUrl: '#',
-    githubUrl: '#',
+    title: 'Atelier47',
+    description: 'A premium streetwear e-commerce platform built for a real-world dropshipping brand. Designed and developed with a focus on modern UI/UX, seamless shopping experiences, and scalable web architecture.',
+    image: atelierImage,
+    tech: ['React', 'Tailwind CSS'],
+    liveUrl: 'https://atelier-47.vercel.app',
+    githubUrl: 'https://github.com/amjedvnml/Atelier47',
   },
   {
     id: 3,
