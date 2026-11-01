@@ -39,7 +39,7 @@ const Hero = () => {
               Frontend Developer
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-gray-900 dark:text-gray-100 leading-tight mb-6">
-              Hi, I'm Amjed KP
+              Hi, I'm Amjed Vanimel
             </h1>
             <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 max-w-xl mb-8 leading-relaxed">
               Frontend Developer crafting clean, modern web experiences with attention to detail and performance.
