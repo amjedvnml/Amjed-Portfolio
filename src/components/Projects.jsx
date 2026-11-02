@@ -4,10 +4,9 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 // Import project images
-import vamosImage from '../assets/vamos.png';
-import neonImage from '../assets/neon.png';
-import portfolioImage from '../assets/portfolio.png';
-import atelierImage from '../assets/atelier47.png';
+import vamosImage from '../assets/vamos-nikies-shoe-store.webp';
+import neonImage from '../assets/neon-porsche-showcase.webp';
+import atelierImage from '../assets/atelier47-streetwear-store.webp';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -15,25 +14,25 @@ const projects = [
   {
     id: 1,
     title: 'Vamos Nikies Shoe Store',
-    description: 'A modern admin dashboard with analytics, inventory management, and real-time data visualization.',
+    description: 'A modern shoe e-commerce website where customers can explore and shop for footwear through a clean, responsive interface. Built with React and Tailwind CSS, with a focus on intuitive navigation and a seamless shopping experience.',
     image: vamosImage,
-    tech: ['React', 'Tailwind CSS'],
+    tech: ['React', 'Tailwind CSS', 'JavaScript'],
     liveUrl: 'https://vamos-nikies.vercel.app',
     githubUrl: 'https://github.com/amjedvnml/Vamos-Nikies',
   },
   {
     id: 2,
     title: 'Atelier47',
-    description: 'A premium streetwear e-commerce platform built for a real-world dropshipping brand. Designed and developed with a focus on modern UI/UX, seamless shopping experiences, and scalable web architecture.',
+    description: 'A premium streetwear e-commerce frontend concept designed for a dropshipping fashion brand. Showcasing modern product layouts, stylish UI/UX, and responsive shopping experiences, built with React and Tailwind CSS.',
     image: atelierImage,
-    tech: ['React', 'Tailwind CSS'],
+    tech: ['React', 'Tailwind CSS', 'JavaScript'],
     liveUrl: 'https://atelier-47.vercel.app',
     githubUrl: 'https://github.com/amjedvnml/Atelier47',
   },
   {
     id: 3,
     title: 'Neon Porsche ',
-    description: 'Productivity app with drag-and-drop functionality, team collaboration, and progress tracking.',
+    description: 'A premium Porsche dealership showcase website featuring a collection of Porsche vehicles, allowing visitors to explore available models and book test drives. Built with HTML and Tailwind CSS, with a focus on immersive visuals and a modern automotive experience.',
     image: neonImage,
     tech: ['HTML', 'Tailwind CSS'],
     liveUrl: 'https://neon-porsche.vercel.app',
@@ -98,7 +97,7 @@ const Projects = () => {
                 {project.image ? (
                   <img
                     src={project.image}
-                    alt={project.title}
+                    alt={`${project.title} - ${project.description}`}
                     className="w-full h-full object-cover"
                     loading="lazy"
                   />

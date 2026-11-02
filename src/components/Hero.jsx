@@ -38,7 +38,7 @@ const Hero = () => {
             <span className="inline-block text-accent text-sm md:text-base font-medium tracking-wide uppercase mb-4">
               Frontend Developer
             </span>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-gray-900 dark:text-gray-100 leading-tight mb-6">
+            <h1 className="text-4xl md:text-5xl lg:text-[50px] xl:text-[57px] font-bold text-gray-900 dark:text-gray-100 leading-tight mb-6">
               Hi, I'm Amjed Vanimel
             </h1>
             <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 max-w-xl mb-8 leading-relaxed">
@@ -70,7 +70,7 @@ const Hero = () => {
           <div ref={imageRef} className="order-1 lg:order-2 flex justify-center lg:justify-end">
             <div className="relative">
               <div className="absolute -inset-4 bg-linear-to-br from-accent/30 to-purple-600/20 rounded-3xl blur-2xl opacity-60" />
-              <div className="relative w-72 h-80 md:w-80 md:h-96 lg:w-96 lg:h-[28rem] rounded-2xl overflow-hidden border-2 border-light-border dark:border-dark-border bg-light-card dark:bg-dark-card shadow-2xl">
+              <div className="relative w-72 h-80 md:w-80 md:h-96 lg:w-96 lg:h-112 rounded-2xl overflow-hidden border-2 border-light-border dark:border-dark-border bg-light-card dark:bg-dark-card shadow-2xl">
                 <img
                   src={personImage}
                   alt="Amjed - Frontend Developer"
