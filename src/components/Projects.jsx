@@ -4,9 +4,9 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 // Import project images
-import vamosImage from '../assets/vamos-nikies-shoe-store.webp';
-import neonImage from '../assets/neon-porsche-showcase.webp';
-import atelierImage from '../assets/atelier47-streetwear-store.webp';
+import vamosImage from '../assets/vamos-nikies-shoe-store-optimized.webp';
+import neonImage from '../assets/neon-porsche-showcase-optimized.webp';
+import atelierImage from '../assets/atelier47-streetwear-store-optimized.webp';
 
 gsap.registerPlugin(ScrollTrigger);
 
